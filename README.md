@@ -28,9 +28,8 @@ Add the following snippet to `~/.codex/config.toml`, adjusting the `command` pat
 
 ```toml
 [mcp_servers.mcp_lllm]
-command = "/Users/vk/@iw2rmb/mcp-lllm/mcp.py"
+command = "~/mcp-lllm/mcp.py"
 env = { MCP_TRANSPORT = "stdio" }
-sandbox_mode = "danger-full-access"
 network_access = "enabled"
 tools = [
   "generate_code",

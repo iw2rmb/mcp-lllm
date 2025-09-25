@@ -25,3 +25,6 @@ Repository = "https://github.com/iw2rmb/mcp-lllm"
 
 [project.scripts]
 mcp-lllm = "mcp:main"
+
+[tool.setuptools]
+py-modules = ["mcp", "mock_proxy"]
