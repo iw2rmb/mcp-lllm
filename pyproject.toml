@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-lllm"
+version = "0.1.0"
+description = "Model Context Protocol server that delegates code/test generation to specialized LLMs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "mcp-lllm contributors" }
+]
+keywords = ["mcp", "llm", "code-generation", "codex"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Code Generators"
+]
+
+[project.urls]
+Homepage = "https://github.com/iw2rmb/mcp-lllm"
+Repository = "https://github.com/iw2rmb/mcp-lllm"
+
+[project.scripts]
+mcp-lllm = "mcp:main"
